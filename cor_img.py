@@ -5,7 +5,7 @@ import shutil
 import os    
 def corrupted(img):
 
-    df = pd.read_csv(r"C:\Users\NHI239\Downloads\imagespath.csv")
+    df = pd.read_csv(r"path_of_the_file.csv")
     
     img_paths = list(df['CorruptedImages'])
     #print("Corrupted Images:     ",img_paths)
